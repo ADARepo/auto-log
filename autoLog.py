@@ -103,5 +103,5 @@ try:
     pg.leftClick(1340, 778)
 except pg.ImageNotFoundException:
     sys.exit()
-
-sys.exit()
+finally:
+    sys.exit()
