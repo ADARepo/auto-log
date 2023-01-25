@@ -102,6 +102,6 @@ try:
     time.sleep(1)
     pg.leftClick(1340, 778)
 except pg.ImageNotFoundException:
-    sys.exit()
+    pg.alert(text="Program exiting...")
 finally:
     sys.exit()
