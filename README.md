@@ -1,8 +1,13 @@
 - Can run the script as is after inputting credentials in a info.ini for logging into SWTOR. I also made it an executable on my own machine.
-    - create an info.ini file setup like this:
-    [SWTOR]
-    username = your_username
-    password = your_password
+    - create an info.ini file setup like this (extra newlines not necessary, just for formatting here. Look inside configparser docs for more info):
+ 
+   [SWTOR]                           
+                                       
+   username = your_username         
+                                       
+   password = your_password           
+                                       
+- 
 - Will modify in the future to work with other applications instead of just SWTOR, the problem will just be UAC.
 - Used python 3.10.9 in a venv
 
