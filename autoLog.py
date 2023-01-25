@@ -57,19 +57,19 @@ while True:
     break
 
 # Enters username and password then clicks login.
-# Click Username text box, copy and paste username. 
+# Click Username text box, copy and paste username. positioning
 pg.moveTo(662, 484)
 pg.leftClick()
 pc.copy(user)
 pg.hotkey('ctrl', 'v')
 
-# Password.
+# Password. positioning.
 pg.moveTo(638, 576)
 pg.leftClick()
 pc.copy(password)
 pg.hotkey('ctrl', 'v')
 
-# Click Login.
+# Click Login. positioning.
 pg.leftClick(551, 785)
 
 passes = 1
